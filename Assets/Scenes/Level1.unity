@@ -4571,6 +4571,7 @@ GameObject:
   - component: {fileID: 1759234748}
   - component: {fileID: 1759234750}
   - component: {fileID: 1759234751}
+  - component: {fileID: 1759234752}
   m_Layer: 0
   m_Name: Possum
   m_TagString: Untagged
@@ -4678,6 +4679,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.13}
   m_Size: {x: 2.24, y: 1.38}
   m_Direction: 1
+--- !u!114 &1759234752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759234747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a219152849bb469fb380b8d1d8f2cc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody: {fileID: 1759234750}
 --- !u!1001 &4041423688567157732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5139,7 +5153,7 @@ PrefabInstance:
     - target: {fileID: 8993886461111739994, guid: 815269ccbaafc4995bff9a3861e0f318,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8993886461111739996, guid: 815269ccbaafc4995bff9a3861e0f318,
         type: 3}
